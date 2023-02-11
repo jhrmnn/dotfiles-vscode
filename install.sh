@@ -2,4 +2,5 @@
 
 [[ ! -f ~/.profile ]] || mv ~/.profile ~/.profile.bkp
 [[ ! -f ~/.bashrc ]] || mv ~/.bashrc ~/.bashrc.bkp
-yadm clone -v --no-bootstrap https://github.com/jhrmnn/dotfiles.git
+yadm clone --no-bootstrap https://github.com/jhrmnn/dotfiles.git
+echo XXX
